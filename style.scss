@@ -1,0 +1,557 @@
+@use 'var';
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #F5F7FA;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+    ul {
+        list-style: none;
+        display: flex;
+
+        li {
+            margin: 0 50px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+    }
+
+    .button {
+        padding: 10px 30px;
+        cursor: pointer;
+    }
+}
+
+.btn {
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: green;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background: #F5F7FA;
+
+    &:hover {
+        background-color: green;
+        color: #fff;
+    }
+}
+
+/* Home page ------------------------------------------------------------------------------- */
+
+.home {
+    background-color: #F5F7FA;
+
+    .inner_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 350px;
+
+        padding: 200px 0 100px;
+    }
+
+    .dot img {
+        display: block;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+}
+
+.inner_page {
+    h2 {
+        font-size: 80px;
+        margin-bottom: 10px;
+
+        span {
+            color: green;
+        }
+    }
+
+    p {
+        margin: 10px 0 20px;
+    }
+}
+
+#btn {
+    cursor: pointer;
+    color: green;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background: #F5F7FA;
+    padding: 10px 20px;
+
+    &:hover {
+        background-color: green;
+        color: #fff;
+    }
+}
+
+.image_div img {
+    width: 500px;
+}
+
+// Our Clients  section ----------------------------------------------------------------------
+
+.our_client {
+    .inner_content {
+        h2 {
+            text-align: center;
+            font-size: 40px;
+            margin-top: 30px;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    }
+
+    .clients {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+    }
+}
+
+// membersgip content start ---------------------------------------------------------------------------
+
+.membership {
+    margin-top: 100px;
+
+    .inner_membership {
+        h2 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        p {
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+
+    .inner_membership_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+
+        .inner_membership1 {
+            width: 100%;
+            padding: 144px 10px;
+
+            // border-bottom: 1px solid #333;
+            h2 {
+                text-align: center;
+
+            }
+
+            p {
+                // width: 50%;
+                // margin-left: 250px;
+                text-align: center;
+                padding: 30px 10px 30px 10px;
+
+            }
+
+
+            img {
+                display: block;
+                margin: auto;
+                padding-bottom: 30px;
+            }
+        }
+
+    }
+}
+
+// information1 ---------------------------------------------------------------------------------
+
+.information1 {
+
+    .inner_info1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 10px;
+    }
+
+    .inner_img {
+        height: 400px;
+        width: 700px;
+        // margin-left: 200px;
+        padding-right: 30px;
+    }
+
+    .inner_info {
+        h2 {
+            font-size: 45px;
+            padding-bottom: 30px;
+            width: 650px;
+        }
+
+        p {
+            margin-right: 100px;
+            padding-bottom: 40px;
+            font-size: 20px;
+            width: 725px;
+        }
+
+        #btn {
+            background: #fff;
+        }
+
+        #btn:hover {
+            background: green;
+        }
+    }
+}
+
+// helping container start ---------------------------------------------------------------------------
+
+.helping_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    background: #F5F7FA;
+    height: 300px;
+
+    .helping_content {
+        h2 {
+            font-size: 40px;
+        }
+
+        span {
+            color: green;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    }
+
+    .helping_container {
+
+
+        .helping_one {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 50px;
+
+            .content {
+                margin-left: 20px;
+
+                h3 {
+                    font-size: 30px;
+                }
+            }
+
+            .inner_para {
+                display: flex;
+                padding-left: 300px;
+            }
+        }
+
+        .helping_two {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 50px;
+            margin-top: 40px;
+
+            .content {
+                margin-left: 20px;
+
+                h3 {
+                    font-size: 30px;
+                }
+            }
+
+            .inner_para1 {
+                display: flex;
+                padding-left: 330px;
+            }
+        }
+    }
+}
+
+// information2 --------------------------------------------------------------------------------
+
+.information2 {
+
+    .inner_info1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 10px;
+    }
+
+    .inner_img {
+        height: 400px;
+        width: 700px;
+        padding-right: 30px;
+    }
+
+    .inner_info {
+        h2 {
+            font-size: 45px;
+            padding-bottom: 30px;
+            width: 750px;
+        }
+
+        p {
+            margin-right: 100px;
+            padding-bottom: 40px;
+            font-size: 20px;
+            width: 725px;
+        }
+
+        #btn {
+            background: #fff;
+        }
+
+        #btn:hover {
+            background: green;
+        }
+    }
+}
+
+// customer section start ----------------------------------------------------------------------------
+
+.customer {
+    .inner_info2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 20px;
+        height: 500px;
+        background-color: #F5F7FA;
+
+        .inner_img img {
+            width: 380px;
+            height: 400px;
+            margin-left: 120px;
+        }
+
+        .inner_info {
+            padding-left: 130px;
+
+            p {
+                width: 80%;
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+
+            h4 {
+                color: green;
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+
+            #pp {
+                color: #89939E;
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+        }
+
+        .inner_container {
+            .clients {
+                display: flex;
+                gap: 80px;
+                align-items: center;
+                justify-content: center;
+                padding-right: 270px;
+
+                .eight {
+                    p {
+                        width: 200px;
+                        color: green;
+                    }
+                }
+
+                .nine img {
+                    position: relative;
+                    right: 100px;
+                }
+            }
+
+            .clients img {
+                width: 31px;
+            }
+        }
+    }
+}
+
+
+// Marketing section start ---------------------------------------------------------------------------
+
+.marketing {
+    h2 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        // display: flex;
+       text-align: center;
+        font-weight: 400px;
+        text-align: center;
+        size: 16px;
+        text-wrap: wrap;
+        width: 70%;
+        padding-left: 600px;
+
+    }
+
+    .image_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 210px;
+    }
+
+    .image_container img {
+        width: 400px;
+        height: 350px;
+    }
+
+    .img_one {
+        .inner_div {
+            width: 300px;
+            height: 200px;
+            background-color: #F5F7FA;
+            margin-left: 50px;
+            position: relative;
+            bottom: 130px;
+            border-radius: 10px;
+
+            box-shadow: 0px 9px 9px #E8EDF2;
+
+            h4 {
+                text-align: center;
+                width: 270px;
+                padding-left: 15px;
+                font-size: 20px;
+                padding-top: 20px;
+                padding-bottom: 30px;
+            }
+
+            span {
+                color: green;
+            }
+        }
+    }
+}
+
+// second last section start-------------------------------------------------------------------------
+
+.second_last {
+    background-color: #F5F7FA;
+    height: 350px;
+
+    .content {
+        h1 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-weight: 600px;
+            // padding-left:700px ;
+            font-size: 64px;
+            padding-bottom: 50px;
+            padding-top: 30px;
+            // height: 300px;
+            // width: 60%;
+        }
+    }
+
+    #btn {
+        display: block;
+        margin: auto;
+        padding: 14px;
+    }
+}
+
+// footer section start-------------------------------------------------------------------------------------------------------------
+
+.footer_section {
+    max-height: 542px;
+    padding: 80px 64px;
+    gap: 80px;
+
+    .foot {
+        height: 212px;
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        .p1 {
+            height: 24px;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+
+    .ter {
+        p {
+            height: 24px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        li{
+            // text-decoration: none;
+            list-style-type: none;
+        }
+
+        img {
+            padding-right: 10px;
+        }
+    }
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 190px;
+
+
+    .last_section {
+        width: 195px;
+        height: 21px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+}
+
